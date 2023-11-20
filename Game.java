@@ -14,9 +14,7 @@ public class Game {
         Map<String, String> wordPairs = createWordPairs();
         ArrayList<String> englishWords = new ArrayList<>(wordPairs.keySet());
         Collections.shuffle(englishWords);
-
         System.out.println("Welcome to Vocabulary Matching Game!");
-
         // Hiển thị danh sách các từ tiếng Anh
         System.out.println("English Words:");
         for (int i = 0; i < englishWords.size(); i++) {
